@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  div {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 50px;
+  }
+  
+  .remove-all-btn {
+    margin-top: 10px;
+    color: red;
+  }
+  .add{
+    color: green;
+  }
+  

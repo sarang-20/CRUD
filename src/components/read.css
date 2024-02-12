@@ -1,0 +1,43 @@
+/* Add this CSS in your component or in a separate stylesheet file */
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 18px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for buttons */
+  .Button {
+    margin-right: 5px;
+  }
+  .btn-update{
+          background: #008CBA;
+          color:white;
+          font-weight: 600;
+
+  }
+  .btn-delete{
+           background: #f44336;
+           color: white;
+           font-weight: 600;
+  }
+  .add{
+    background: #0fb662;
+    color: white;
+    font-weight: 600;
+
+
+  }
+  
+  
