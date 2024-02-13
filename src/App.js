@@ -5,17 +5,19 @@ import Create from '/Users/sarangaghara/Desktop/crud/crud/src/components/Create.
 import Read from '/Users/sarangaghara/Desktop/crud/crud/src/components/Read.js';
 import Update from '/Users/sarangaghara/Desktop/crud/crud/src/components/Update.js';
 import Todo from './components/Todo';
+import Api from'./components/Api';
 
 export default function App() {
     return (
-        // <Router>
-        //     <Routes>
-        //         <Route  index element={<Home />} />
-        //         <Route path="/create" element={<Create />} />
-        //         <Route path="/read" element={<Read />} />
-        //         <Route path="/update" element={<Update />} />
-        //     </Routes>
-        // </Router>
-        <Todo/>
+    //     <Router>
+    //         <Routes>
+    //             <Route  index element={<Home />} />
+    //             <Route path="/create" element={<Create />} />
+    //             <Route path="/read" element={<Read />} />
+    //             <Route path="/update" element={<Update />} />
+    //         </Routes>
+    //     </Router>
+    //    //    <Todo/>
+    <Api/>
     );
 }

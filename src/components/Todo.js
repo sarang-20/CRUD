@@ -47,7 +47,7 @@ function Todo() {
 
       {listData.length > 0 && (
         <button className="remove-all-btn" onClick={removeAllActivity}>
-          Reset
+          Reset 
         </button>
       )}
     </>
